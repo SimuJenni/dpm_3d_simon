@@ -1,0 +1,11 @@
+#!/bin/bash
+
+#$ -N DDPM-3D
+#$ -S /bin/bash
+#$ -cwd
+#$ -j y
+#$ -m eas
+#$ -pe smp 12
+
+
+matlab +wt$NSLOTS -nodesktop -nosplash -r "runExperiments" 
