@@ -1,0 +1,64 @@
+\documentclass[12pt]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{subcaption}
+\usepackage{bbm}
+
+
+\graphicspath{ {images/} }
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+
+\title{
+	{A Study of 3D Deformable Parts Models for Detection and Pose-Estimation}\\
+	{\large University of Bern}\\
+}
+\author{Simon Jenni}
+\date{March 31, 2015}
+
+\begin{document}
+
+\maketitle
+
+\chapter*{Abstract}
+This work covers the implementation of a 3D Deformable Parts Model and provides experimental evaluations of several design choices, model parameters and training-set configurations. A comparison to similar models then shows a performance improvement compared to other 3D DPMs. It also covers the difficulties and methods for incorporating features obtained by Convolutional Neural Networks into a 3D DPM and shows that without fine-tuning of the feature weights, there is no performance gain on cars compared to the standard HOG features.
+
+%\chapter*{Dedication}
+%
+%\chapter*{Declaration}
+%
+\chapter*{Acknowledgements}
+Foremost I would like to thank my supervisor, Professor Paolo Favaro. His guidance, feedback, constructive criticism, and ideas helped me greatly throughout the work on this project. It was his lecture on Machine Learning that got me interested in this field and I'm very glad for the opportunity he gave me to write my Bachelor's thesis on this exciting topic. I would also like to thank Attila Szab\'{o} who always provided me with great help and advice when I needed it and also taught me many new things. The meetings with Professor Favaro and Attila were always a source of inspiration and motivation and offered me many new insights into the field.
+
+I would also like to thank my family and friends who supported me and provided me with  pleasant distractions from the work on this thesis. I'm especially grateful for the moral and financial support of my father without whom I would not have been able to do this.
+
+A special thanks goes to my very understanding and patient girlfriend C\'{e}line who managed to keep up with me during this time and helped me greatly throughout the writing of this thesis. 
+
+
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter{Introduction}
+\input{chapters/Introduction}
+
+\chapter{Background}\label{chap:back}
+\input{chapters/Background}
+
+\chapter{The Deformable Parts Model}\label{chap:model}
+\input{chapters/Model}
+
+\chapter{Experiments and Results}\label{chap:exp}
+\input{chapters/Experiments}
+
+\chapter{Conclusion}\label{chap:conclusion} 
+\input{chapters/Conclusion}
+
+\bibliographystyle{plain} %apalike
+\bibliography{refs}
+
+\appendix
+\chapter{Image and Feature Pyramid}\label{chap:pyra} 
+\input{chapters/appendix}
+
+\end{document}

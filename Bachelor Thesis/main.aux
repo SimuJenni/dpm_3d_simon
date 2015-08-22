@@ -1,0 +1,359 @@
+\relax 
+\citation{pascal-voc-2012}
+\citation{4408987}
+\citation{krizhevsky2012imagenet}
+\citation{xiang_wacv14}
+\citation{4408987}
+\citation{pascal-voc-2007}
+\citation{xiang_wacv14}
+\citation{4408987}
+\citation{xiang_wacv14}
+\citation{4408987}
+\citation{pascal-voc-2012}
+\citation{pascal-voc-2012}
+\@writefile{toc}{\contentsline {chapter}{\numberline {1}Introduction}{9}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {1.1}Motivation}{9}}
+\citation{5255236}
+\citation{1467360}
+\citation{girshick2013rich}
+\citation{krizhevsky2012imagenet}
+\citation{4408987}
+\citation{4408987}
+\citation{6248075}
+\citation{Pepik:2012aa}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.1}{\ignorespaces Examples from the Pascal Visual Object Classes (VOC) challenge 2012. \cite  {pascal-voc-2012}\relax }}{10}}
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{fig:vocEx}{{1.1}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.2}{\ignorespaces This figure shows detections of an eight-viewpoint-3D-DPM with six 3D-parts and three parts per viewpoint. The red boxes indicate the root filter placement and the other boxes indicate part placements. Each 3D part is assigned a separate colour to help illustrate their consistent 3D placement. Note that this model was trained with a small number of parts for illustration purposes. The images are taken from the 3D Objects Dataset of \cite  {4408987}.\relax }}{11}}
+\newlabel{fig:carviews}{{1.2}{11}}
+\citation{5255236}
+\@writefile{lof}{\contentsline {figure}{\numberline {1.3}{\ignorespaces This figure shows detections of a normal 2D-DPM. The red boxes indicate the root filter placement and the blue boxes indicate part placements. Note that there is no apparent connection between parts of the two different views.\relax }}{12}}
+\newlabel{fig:dpmcar}{{1.3}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {1.2}Outline}{13}}
+\citation{books/garland/Roberts63}
+\citation{agin1972representation}
+\citation{fischler1973representation}
+\citation{lowe1987three}
+\citation{underwood1975visual}
+\citation{murase1995visual}
+\@writefile{toc}{\contentsline {chapter}{\numberline {2}Background}{14}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:back}{{2}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}A Bit of History}{14}}
+\citation{lowe1999object}
+\citation{1467360}
+\citation{flynn1989cad}
+\citation{yan20073d}
+\citation{4270070}
+\citation{liebelt2008viewpoint}
+\citation{thomas2006towards}
+\citation{felzenszwalb2008discriminatively}
+\citation{5255236}
+\citation{6248075}
+\citation{5206633}
+\citation{4408987}
+\citation{savarese2008view}
+\@writefile{toc}{\contentsline {section}{\numberline {2.2}3D Approaches}{15}}
+\citation{5255236}
+\citation{6248075}
+\citation{5255236}
+\citation{Pepik:2012aa}
+\citation{6248075}
+\citation{6248075}
+\citation{Pepik:2012aa}
+\citation{6248075}
+\citation{6248075}
+\citation{Pepik:2012aa}
+\citation{xiang_wacv14}
+\citation{5255236}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2.1}Related work}{16}}
+\citation{1467360}
+\citation{5255236}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Visualisation of a HOG feature map (right) computed from the rendered car image on the left.\relax }}{17}}
+\newlabel{fig:carhog}{{2.1}{17}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.3}Features}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.1}HOG}{17}}
+\citation{krizhevsky2012imagenet}
+\citation{krizhevsky2012imagenet}
+\citation{krizhevsky2012imagenet}
+\citation{girshick2013rich}
+\citation{fukushima1980neocognitron}
+\citation{lecun1998gradient}
+\citation{krizhevsky2012imagenet}
+\citation{krizhevsky2012imagenet}
+\citation{krizhevsky2012imagenet}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Figure showing the architecture of the CNN of Krizhevsky et al. \cite  {krizhevsky2012imagenet}\relax }}{18}}
+\newlabel{fig:cnn}{{2.2}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.3.2}Convolutional Neural Networks}{18}}
+\citation{girshick2014deformable}
+\citation{savalle8deformable}
+\citation{girshick2014deformable}
+\citation{savalle8deformable}
+\citation{krizhevsky2012imagenet}
+\citation{girshick2013rich}
+\citation{girshick2014deformable}
+\citation{girshick2013rich}
+\citation{savalle8deformable}
+\citation{girshick2014deformable}
+\citation{5255236}
+\citation{5255236}
+\citation{6248075}
+\citation{5255236}
+\citation{1467360}
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}The Deformable Parts Model}{20}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:model}{{3}{20}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}DPM Review}{20}}
+\newlabel{sec:dpmreview}{{3.1}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Sliding Window Approach}{20}}
+\newlabel{fig:impyra}{{3.1a}{21}}
+\newlabel{sub@fig:impyra}{{a}{21}}
+\newlabel{fig:featpyra}{{3.1b}{21}}
+\newlabel{sub@fig:featpyra}{{b}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces These figures illustrate image and feature pyramids. The pyramids here span two octaves with one level each. Therefore each pyramid level downwards doubles the image resolution. Note that the cell-size of all the feature maps in the HOG pyramid is constant.\relax }}{21}}
+\newlabel{fig:pyra}{{3.1}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces This figure illustrates the instantiations of a filter in a feature pyramid. The same filter is placed in the lower left corner of each pyramid level. To better distinct it from the feature maps, the filter is coloured. \relax }}{22}}
+\newlabel{fig:rootInPyra}{{3.2}{22}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Deformable Parts and Mixture Models}{22}}
+\newlabel{sec:defParts}{{3.1.2}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces This figure illustrates the anchors and displacements of the parts. The anchor position $v$ from the root centre to the anchor is coloured in orange. The displacement from anchor to the part position is coloured in light blue. \relax }}{23}}
+\newlabel{fig:anchor}{{3.3}{23}}
+\newlabel{eq:score}{{3.2}{23}}
+\citation{felzenszwalb2004distance}
+\newlabel{eq:vecscore}{{3.6}{24}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.3}Inference}{24}}
+\newlabel{eq:rscore}{{3.7}{24}}
+\newlabel{eq:dt}{{3.8}{24}}
+\@writefile{toc}{\contentsline {subsubsection}{Bounding Box Prediction}{25}}
+\@writefile{toc}{\contentsline {subsubsection}{Non-Maximum Suppression}{25}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.4}Training}{25}}
+\citation{5255236}
+\citation{andrewssupport}
+\citation{shalev2011pegasos}
+\citation{5255236}
+\newlabel{eq:svm}{{3.11}{26}}
+\newlabel{proc:train}{{3.1.4}{26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.5}Initialisation}{26}}
+\citation{6248075}
+\citation{Pepik:2012aa}
+\citation{6248075}
+\citation{Pepik:2012aa}
+\citation{4408987}
+\citation{pascal-voc-2012}
+\citation{xiang_wacv14}
+\newlabel{fig:carhog_random}{{3.4a}{27}}
+\newlabel{sub@fig:carhog_random}{{a}{27}}
+\newlabel{fig:carhog_hard}{{3.4b}{27}}
+\newlabel{sub@fig:carhog_hard}{{b}{27}}
+\newlabel{fig:carhog_partinit}{{3.4c}{27}}
+\newlabel{sub@fig:carhog_partinit}{{c}{27}}
+\newlabel{fig:carhog_final}{{3.4d}{27}}
+\newlabel{sub@fig:carhog_final}{{d}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces This figure visualises the evolution of a mixture component of an eight viewpoint 3D DPM during the training procedure.\relax }}{27}}
+\newlabel{fig:carhog}{{3.4}{27}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Extension to 3D}{27}}
+\newlabel{sec:ext3D}{{3.2}{27}}
+\citation{5255236}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces A CAD example rendered on a negative training image including the annotated bounding box (left). And a CAD example rendered on a background of mean pixels (right). Both were rendered using perspective projection.\relax }}{28}}
+\newlabel{fig:CAD}{{3.5}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Assigning Components to Viewpoints}{28}}
+\citation{xiang_wacv14}
+\citation{pascal-voc-2012}
+\citation{xiang_wacv14}
+\citation{xiang_wacv14}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Histograms showing the distribution of elevations (left) and azimuth angles (right) across car examples from VOC2012 as annotated by \cite  {xiang_wacv14}.\relax }}{29}}
+\newlabel{fig:hist}{{3.6}{29}}
+\citation{6248075}
+\newlabel{eq:penalty}{{3.12}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Placing Parts in 3D}{30}}
+\citation{6248075}
+\citation{Pepik:2012aa}
+\newlabel{eq:3dConstraints}{{3.13}{31}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Initialising Parts in 3D}{32}}
+\newlabel{sec:partInit}{{3.2.3}{32}}
+\citation{arXiv:1412.4564}
+\citation{Chatfield14}
+\citation{krizhevsky2012imagenet}
+\citation{DBLP:journals/corr/IandolaMKGDK14}
+\citation{jia2014caffe}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces This figure illustrates the idea of the 3D object box and the part parametrisation. The blue box represents a 3D part box and the green 2D box represents the part filter template from the given viewpoint.\relax }}{33}}
+\newlabel{fig:3dbox}{{3.7}{33}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}CNN Features}{33}}
+\newlabel{sec:cnnFeat}{{3.3}{33}}
+\citation{girshick2014deformable}
+\citation{DBLP:journals/corr/IandolaMKGDK14}
+\citation{savalle8deformable}
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces This table shows the architecture of the first five layers of the CNN-F network with the modified padding.\relax }}{34}}
+\newlabel{tab:cnn}{{3.1}{34}}
+\citation{girshick2014deformable}
+\citation{girshick2013rich}
+\citation{girshick2013training}
+\citation{girshick2014deformable}
+\citation{voc-release4}
+\citation{voc-release5}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Performance Optimisation}{36}}
+\citation{voc-release4}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Figures illustrating problems with the bounding box annotations on Pascal VOC. The red bounding boxes are the annotations and the blue bounding box illustrates the discrepancy to a real car bounding box.\relax }}{37}}
+\newlabel{fig:trunc}{{3.8}{37}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Handling Truncated and Occluded Objects}{37}}
+\newlabel{sec:trunc}{{3.4.1}{37}}
+\citation{6248075}
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Experiments and Results}{39}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:exp}{{4}{39}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Influence of Model Parameters}{39}}
+\newlabel{sec:expparam}{{4.1}{39}}
+\citation{xiang_wacv14}
+\newlabel{tab:rootarea}{{4.1a}{41}}
+\newlabel{sub@tab:rootarea}{{a}{41}}
+\newlabel{tab:numComp}{{4.1b}{41}}
+\newlabel{sub@tab:numComp}{{b}{41}}
+\newlabel{tab:parts}{{4.1c}{41}}
+\newlabel{sub@tab:parts}{{c}{41}}
+\newlabel{tab:elev}{{4.1d}{41}}
+\newlabel{sub@tab:elev}{{d}{41}}
+\newlabel{tab:extraoctave}{{4.1e}{41}}
+\newlabel{sub@tab:extraoctave}{{e}{41}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Tables showing the influence of several model parameters on average precision (AP) and average viewpoint accuracy (VA).\relax }}{41}}
+\newlabel{tab:modelParam}{{4.1}{41}}
+\citation{5255236}
+\citation{voc-release4}
+\citation{6248075}
+\citation{6248075}
+\citation{Pepik:2012aa}
+\citation{pascal-voc-2007}
+\citation{pascal-voc-2007}
+\newlabel{tab:data}{{4.2a}{43}}
+\newlabel{sub@tab:data}{{a}{43}}
+\newlabel{tab:alpha}{{4.2b}{43}}
+\newlabel{sub@tab:alpha}{{b}{43}}
+\newlabel{tab:background}{{4.2c}{43}}
+\newlabel{sub@tab:background}{{c}{43}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.2}{\ignorespaces Tables showing the influence of training data parameters.\relax }}{43}}
+\newlabel{tab:dataParam}{{4.2}{43}}
+\newlabel{tab:penalty}{{4.3a}{43}}
+\newlabel{sub@tab:penalty}{{a}{43}}
+\newlabel{tab:truncfeat}{{4.3b}{43}}
+\newlabel{sub@tab:truncfeat}{{b}{43}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.3}{\ignorespaces Tables showing the influence of penalty term and truncation feature.\relax }}{43}}
+\newlabel{tab:otherParam}{{4.3}{43}}
+\citation{pascal-voc-2007}
+\citation{pascal-voc-2012}
+\citation{4408987}
+\citation{6248075}
+\citation{Pepik:2012aa}
+\citation{Pepik:2012aa}
+\citation{6248075}
+\citation{6248075}
+\@writefile{lot}{\contentsline {table}{\numberline {4.4}{\ignorespaces Average Precision (AP) on cars of the VOC 2007 \cite  {pascal-voc-2007} test set. Results for the model in this project are given in the first two columns and results of other models are provided for comparison.\relax }}{44}}
+\newlabel{tab:voc2007}{{4.4}{44}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Bounding Box Localisation}{44}}
+\newlabel{sec:boxloc}{{4.2}{44}}
+\citation{xiang_wacv14}
+\citation{6248075}
+\citation{xiang_wacv14}
+\citation{xiang_wacv14}
+\citation{Pepik:2012aa}
+\citation{xiang_wacv14}
+\citation{6248075}
+\citation{Pepik:2012aa}
+\citation{6248075}
+\citation{4408987}
+\citation{4408987}
+\citation{4408987}
+\@writefile{lot}{\contentsline {table}{\numberline {4.5}{\ignorespaces Average precision and average viewpoint accuracy (AP/VA) on cars of the VOC 2012 'val' set with annotations by \cite  {xiang_wacv14}.\relax }}{45}}
+\newlabel{tab:voc2012}{{4.5}{45}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.6}{\ignorespaces Average precision and viewpoint estimation in MPPE on cars of the 3D Object classes dataset \cite  {4408987}.\relax }}{45}}
+\newlabel{tab:3DDataset}{{4.6}{45}}
+\citation{4408987}
+\citation{4408987}
+\citation{xiang_wacv14}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Precision/Recall (left) and Viewpoint-Accuracy/Recall (right) curves on cars of the 3D object dataset \cite  {4408987} of models described in this project. All the models were trained using all the training data (CAD, VOC2007, VOC2012, 3D Dataset). 3D-DPM+ uses an extra octave pyramid and 3D-DPM PN uses positive training data with wrong viewpoint labels as negative training examples.\relax }}{46}}
+\newlabel{fig:PR3DDataset}{{4.1}{46}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}Viewpoint Estimation}{46}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Precision-Recall curves on VOC 2007 'test' (left) and on VOC 2012 'val' (right). All the models were trained using all the training data. \relax }}{47}}
+\newlabel{fig:PRVOC}{{4.2}{47}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Viewpoint-Accuracy-Recall curves on VOC 2012 'val' of models described in this project. Only examples with bounding-box overlap of at least 0.5 and correct viewpoint label are considered correctly classified. All the models were trained using all the training data (CAD, VOC2007, VOC2012, 3D Dataset). 3D-DPM+ uses an extra octave pyramid and 3D-DPM PN uses positive training data with wrong viewpoint labels as negative training examples.\relax }}{48}}
+\newlabel{fig:AVVOC2012}{{4.3}{48}}
+\citation{6248075}
+\citation{Pepik:2012aa}
+\citation{6248075}
+\citation{6248075}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}CNN vs. HOG Features}{49}}
+\newlabel{sec:cnnexp}{{4.4}{49}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.7}{\ignorespaces Relative AP and VA with or without feature standardisation\relax }}{50}}
+\newlabel{tab:featStand}{{4.7}{50}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.8}{\ignorespaces Relative AP and VA for different lower-bounds\relax }}{50}}
+\newlabel{tab:lowerbound}{{4.8}{50}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.9}{\ignorespaces Comparing the detection performance of a CNN based model to a HOG based model using average precision on cars of the VOC 2007 'test' set.\relax }}{50}}
+\newlabel{tab:cnn2007}{{4.9}{50}}
+\citation{xiang_wacv14}
+\citation{xiang_wacv14}
+\citation{girshick2014deformable}
+\@writefile{lot}{\contentsline {table}{\numberline {4.10}{\ignorespaces Comparing the performance of CNN based models to a HOG based model using average precision and average viewpoint accuracy (AP/VA) on cars of the VOC 2012 'val' set with annotations by \cite  {xiang_wacv14}.\relax }}{51}}
+\newlabel{tab:cnn2012}{{4.10}{51}}
+\citation{4408987}
+\citation{4408987}
+\citation{4408987}
+\@writefile{lot}{\contentsline {table}{\numberline {4.11}{\ignorespaces Comparing the performance of CNN based models to a HOG based model using average precision and average viewpoint accuracy (AP/VA) on cars of the 3D object dataset \cite  {4408987}.\relax }}{52}}
+\newlabel{tab:cnn3ddataset}{{4.11}{52}}
+\citation{Pepik:2012aa}
+\citation{6248075}
+\@writefile{toc}{\contentsline {chapter}{\numberline {5}Conclusion}{53}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:conclusion}{{5}{53}}
+\citation{Pepik:2012aa}
+\citation{girshick2013rich}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Future work}{54}}
+\newlabel{sec:future}{{5.1}{54}}
+\bibstyle{plain}
+\bibdata{refs}
+\bibcite{agin1972representation}{1}
+\bibcite{andrewssupport}{2}
+\bibcite{Chatfield14}{3}
+\bibcite{1467360}{4}
+\bibcite{pascal-voc-2007}{5}
+\bibcite{pascal-voc-2012}{6}
+\bibcite{voc-release4}{7}
+\bibcite{felzenszwalb2004distance}{8}
+\bibcite{felzenszwalb2008discriminatively}{9}
+\bibcite{5255236}{10}
+\bibcite{fischler1973representation}{11}
+\bibcite{flynn1989cad}{12}
+\bibcite{fukushima1980neocognitron}{13}
+\bibcite{voc-release5}{14}
+\bibcite{girshick2013rich}{15}
+\bibcite{girshick2014deformable}{16}
+\bibcite{girshick2013training}{17}
+\bibcite{4270070}{18}
+\bibcite{DBLP:journals/corr/IandolaMKGDK14}{19}
+\bibcite{jia2014caffe}{20}
+\bibcite{krizhevsky2012imagenet}{21}
+\bibcite{lecun1998gradient}{22}
+\bibcite{liebelt2008viewpoint}{23}
+\bibcite{lowe1987three}{24}
+\bibcite{lowe1999object}{25}
+\bibcite{murase1995visual}{26}
+\bibcite{5206633}{27}
+\bibcite{6248075}{28}
+\bibcite{Pepik:2012aa}{29}
+\bibcite{books/garland/Roberts63}{30}
+\bibcite{savalle8deformable}{31}
+\bibcite{4408987}{32}
+\bibcite{savarese2008view}{33}
+\bibcite{shalev2011pegasos}{34}
+\bibcite{thomas2006towards}{35}
+\bibcite{underwood1975visual}{36}
+\bibcite{arXiv:1412.4564}{37}
+\bibcite{xiang_wacv14}{38}
+\bibcite{yan20073d}{39}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Image and Feature Pyramid}{61}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\newlabel{chap:pyra}{{A}{61}}

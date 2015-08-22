@@ -1,0 +1,34 @@
+\contentsline {chapter}{\numberline {1}Introduction}{9}
+\contentsline {section}{\numberline {1.1}Motivation}{9}
+\contentsline {section}{\numberline {1.2}Outline}{13}
+\contentsline {chapter}{\numberline {2}Background}{14}
+\contentsline {section}{\numberline {2.1}A Bit of History}{14}
+\contentsline {section}{\numberline {2.2}3D Approaches}{15}
+\contentsline {subsection}{\numberline {2.2.1}Related work}{16}
+\contentsline {section}{\numberline {2.3}Features}{17}
+\contentsline {subsection}{\numberline {2.3.1}HOG}{17}
+\contentsline {subsection}{\numberline {2.3.2}Convolutional Neural Networks}{18}
+\contentsline {chapter}{\numberline {3}The Deformable Parts Model}{20}
+\contentsline {section}{\numberline {3.1}DPM Review}{20}
+\contentsline {subsection}{\numberline {3.1.1}Sliding Window Approach}{20}
+\contentsline {subsection}{\numberline {3.1.2}Deformable Parts and Mixture Models}{22}
+\contentsline {subsection}{\numberline {3.1.3}Inference}{24}
+\contentsline {subsubsection}{Bounding Box Prediction}{25}
+\contentsline {subsubsection}{Non-Maximum Suppression}{25}
+\contentsline {subsection}{\numberline {3.1.4}Training}{25}
+\contentsline {subsection}{\numberline {3.1.5}Initialisation}{26}
+\contentsline {section}{\numberline {3.2}Extension to 3D}{27}
+\contentsline {subsection}{\numberline {3.2.1}Assigning Components to Viewpoints}{28}
+\contentsline {subsection}{\numberline {3.2.2}Placing Parts in 3D}{30}
+\contentsline {subsection}{\numberline {3.2.3}Initialising Parts in 3D}{32}
+\contentsline {section}{\numberline {3.3}CNN Features}{33}
+\contentsline {section}{\numberline {3.4}Performance Optimisation}{36}
+\contentsline {subsection}{\numberline {3.4.1}Handling Truncated and Occluded Objects}{37}
+\contentsline {chapter}{\numberline {4}Experiments and Results}{39}
+\contentsline {section}{\numberline {4.1}Influence of Model Parameters}{39}
+\contentsline {section}{\numberline {4.2}Bounding Box Localisation}{44}
+\contentsline {section}{\numberline {4.3}Viewpoint Estimation}{46}
+\contentsline {section}{\numberline {4.4}CNN vs. HOG Features}{49}
+\contentsline {chapter}{\numberline {5}Conclusion}{53}
+\contentsline {section}{\numberline {5.1}Future work}{54}
+\contentsline {chapter}{\numberline {A}Image and Feature Pyramid}{61}

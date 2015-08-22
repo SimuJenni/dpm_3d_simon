@@ -1,0 +1,228 @@
+\begin{thebibliography}{10}
+
+\bibitem{agin1972representation}
+Gerald~J Agin.
+\newblock Representation and description of curved objects.
+\newblock Technical report, DTIC Document, 1972.
+
+\bibitem{andrewssupport}
+Stuart Andrews, Ioannis Tsochantaridis, and Thomas Hofmann.
+\newblock Support vector machines for multiple-instance learning.
+
+\bibitem{Chatfield14}
+K.~Chatfield, K.~Simonyan, A.~Vedaldi, and A.~Zisserman.
+\newblock Return of the devil in the details: Delving deep into convolutional
+  nets.
+\newblock In {\em British Machine Vision Conference}, 2014.
+
+\bibitem{1467360}
+N.~Dalal and B.~Triggs.
+\newblock Histograms of oriented gradients for human detection.
+\newblock In {\em Computer Vision and Pattern Recognition, 2005. CVPR 2005.
+  IEEE Computer Society Conference on}, volume~1, pages 886--893 vol. 1, June
+  2005.
+
+\bibitem{pascal-voc-2007}
+M.~Everingham, L.~Van~Gool, C.~K.~I. Williams, J.~Winn, and A.~Zisserman.
+\newblock The {PASCAL} {V}isual {O}bject {C}lasses {C}hallenge 2007 {(VOC2007)}
+  {R}esults.
+\newblock
+  http://www.pascal-network.org/challenges/VOC/voc2007/workshop/index.html.
+
+\bibitem{pascal-voc-2012}
+M.~Everingham, L.~Van~Gool, C.~K.~I. Williams, J.~Winn, and A.~Zisserman.
+\newblock The {PASCAL} {V}isual {O}bject {C}lasses {C}hallenge 2012 {(VOC2012)}
+  {R}esults.
+\newblock
+  http://www.pascal-network.org/challenges/VOC/voc2012/workshop/index.html.
+
+\bibitem{voc-release4}
+P.~F. Felzenszwalb, R.~B. Girshick, and D.~McAllester.
+\newblock Discriminatively trained deformable part models, release 4.
+\newblock http://people.cs.uchicago.edu/~pff/latent-release4/.
+
+\bibitem{felzenszwalb2004distance}
+Pedro Felzenszwalb and Daniel Huttenlocher.
+\newblock Distance transforms of sampled functions.
+\newblock Technical report, Cornell University, 2004.
+
+\bibitem{felzenszwalb2008discriminatively}
+Pedro Felzenszwalb, David McAllester, and Deva Ramanan.
+\newblock A discriminatively trained, multiscale, deformable part model.
+\newblock In {\em Computer Vision and Pattern Recognition, 2008. CVPR 2008.
+  IEEE Conference on}, pages 1--8. IEEE, 2008.
+
+\bibitem{5255236}
+P.F. Felzenszwalb, R.B. Girshick, D.~McAllester, and D.~Ramanan.
+\newblock Object detection with discriminatively trained part-based models.
+\newblock {\em Pattern Analysis and Machine Intelligence, IEEE Transactions
+  on}, 32(9):1627--1645, Sept 2010.
+
+\bibitem{fischler1973representation}
+Martin~A Fischler and Robert~A Elschlager.
+\newblock The representation and matching of pictorial structures.
+\newblock {\em IEEE Transactions on Computers}, 22(1):67--92, 1973.
+
+\bibitem{flynn1989cad}
+Patrick~J Flynn and Anil~K Jain.
+\newblock Cad-based computer vision: from cad models to relational graphs.
+\newblock In {\em Systems, Man and Cybernetics, 1989. Conference Proceedings.,
+  IEEE International Conference on}, pages 162--167. IEEE, 1989.
+
+\bibitem{fukushima1980neocognitron}
+Kunihiko Fukushima.
+\newblock Neocognitron: A self-organizing neural network model for a mechanism
+  of pattern recognition unaffected by shift in position.
+\newblock {\em Biological cybernetics}, 36(4):193--202, 1980.
+
+\bibitem{voc-release5}
+R.~B. Girshick, P.~F. Felzenszwalb, and D.~McAllester.
+\newblock Discriminatively trained deformable part models, release 5.
+\newblock http://people.cs.uchicago.edu/~rbg/latent-release5/.
+
+\bibitem{girshick2013rich}
+Ross Girshick, Jeff Donahue, Trevor Darrell, and Jitendra Malik.
+\newblock Rich feature hierarchies for accurate object detection and semantic
+  segmentation.
+\newblock {\em arXiv preprint arXiv:1311.2524}, 2013.
+
+\bibitem{girshick2014deformable}
+Ross Girshick, Forrest Iandola, Trevor Darrell, and Jitendra Malik.
+\newblock Deformable part models are convolutional neural networks.
+\newblock {\em arXiv preprint arXiv:1409.5403}, 2014.
+
+\bibitem{girshick2013training}
+Ross Girshick and Jitendra Malik.
+\newblock Training deformable part models with decorrelated features.
+\newblock In {\em Computer Vision (ICCV), 2013 IEEE International Conference
+  on}, pages 3016--3023. IEEE, 2013.
+
+\bibitem{4270070}
+D.~Hoiem, C.~Rother, and J.~Winn.
+\newblock 3d layoutcrf for multi-view object class recognition and
+  segmentation.
+\newblock In {\em Computer Vision and Pattern Recognition, 2007. CVPR '07. IEEE
+  Conference on}, pages 1--8, June 2007.
+
+\bibitem{DBLP:journals/corr/IandolaMKGDK14}
+Forrest~N. Iandola, Matthew~W. Moskewicz, Sergey Karayev, Ross~B. Girshick,
+  Trevor Darrell, and Kurt Keutzer.
+\newblock Densenet: Implementing efficient convnet descriptor pyramids.
+\newblock {\em CoRR}, abs/1404.1869, 2014.
+
+\bibitem{jia2014caffe}
+Yangqing Jia, Evan Shelhamer, Jeff Donahue, Sergey Karayev, Jonathan Long, Ross
+  Girshick, Sergio Guadarrama, and Trevor Darrell.
+\newblock Caffe: Convolutional architecture for fast feature embedding.
+\newblock {\em arXiv preprint arXiv:1408.5093}, 2014.
+
+\bibitem{krizhevsky2012imagenet}
+Alex Krizhevsky, Ilya Sutskever, and Geoffrey~E Hinton.
+\newblock Imagenet classification with deep convolutional neural networks.
+\newblock In {\em Advances in neural information processing systems}, pages
+  1097--1105, 2012.
+
+\bibitem{lecun1998gradient}
+Yann LeCun, L{\'e}on Bottou, Yoshua Bengio, and Patrick Haffner.
+\newblock Gradient-based learning applied to document recognition.
+\newblock {\em Proceedings of the IEEE}, 86(11):2278--2324, 1998.
+
+\bibitem{liebelt2008viewpoint}
+Joerg Liebelt, Cordelia Schmid, and Klaus Schertler.
+\newblock Viewpoint-independent object class detection using 3d feature maps.
+\newblock In {\em Computer Vision and Pattern Recognition, 2008. CVPR 2008.
+  IEEE Conference on}, pages 1--8. IEEE, 2008.
+
+\bibitem{lowe1987three}
+David~G Lowe.
+\newblock Three-dimensional object recognition from single two-dimensional
+  images.
+\newblock {\em Artificial intelligence}, 31(3):355--395, 1987.
+
+\bibitem{lowe1999object}
+David~G Lowe.
+\newblock Object recognition from local scale-invariant features.
+\newblock In {\em Computer vision, 1999. The proceedings of the seventh IEEE
+  international conference on}, volume~2, pages 1150--1157. Ieee, 1999.
+
+\bibitem{murase1995visual}
+Hiroshi Murase and Shree~K Nayar.
+\newblock Visual learning and recognition of 3-d objects from appearance.
+\newblock {\em International journal of computer vision}, 14(1):5--24, 1995.
+
+\bibitem{5206633}
+M.~Ozuysal, V.~Lepetit, and P.~Fua.
+\newblock Pose estimation for category specific multiview object localization.
+\newblock In {\em Computer Vision and Pattern Recognition, 2009. CVPR 2009.
+  IEEE Conference on}, pages 778--785, June 2009.
+
+\bibitem{6248075}
+B.~Pepik, M.~Stark, P.~Gehler, and B.~Schiele.
+\newblock Teaching 3d geometry to deformable part models.
+\newblock In {\em Computer Vision and Pattern Recognition (CVPR), 2012 IEEE
+  Conference on}, pages 3362--3369, June 2012.
+
+\bibitem{Pepik:2012aa}
+Bojan Pepik, Peter Gehler, Michael Stark, and Bernt Schiele.
+\newblock {\em 3D2PM -- 3D Deformable Part Models}, volume 7577, pages
+  356--370.
+\newblock Springer Berlin Heidelberg, 2012.
+
+\bibitem{books/garland/Roberts63}
+Lawrence~G. Roberts.
+\newblock {\em Machine Perception of Three-Dimensional Solids}.
+\newblock Outstanding Dissertations in the Computer Sciences. Garland
+  Publishing, New York, 1963.
+
+\bibitem{savalle8deformable}
+Pierre-Andr{\'e} Savalle, Stavros Tsogkas, George Papandreou, and Iasonas
+  Kokkinos.
+\newblock Deformable part models with cnn features.
+\newblock In {\em 3rd Parts and Attributes Workshop, ECCV}, volume~8.
+
+\bibitem{4408987}
+S.~Savarese and Li~Fei-Fei.
+\newblock 3d generic object categorization, localization and pose estimation.
+\newblock In {\em Computer Vision, 2007. ICCV 2007. IEEE 11th International
+  Conference on}, pages 1--8, Oct 2007.
+
+\bibitem{savarese2008view}
+Silvio Savarese and Li~Fei-Fei.
+\newblock View synthesis for recognizing unseen poses of object classes.
+\newblock In {\em Computer Vision--ECCV 2008}, pages 602--615. Springer, 2008.
+
+\bibitem{shalev2011pegasos}
+Shai Shalev-Shwartz, Yoram Singer, Nathan Srebro, and Andrew Cotter.
+\newblock Pegasos: Primal estimated sub-gradient solver for svm.
+\newblock {\em Mathematical programming}, 127(1):3--30, 2011.
+
+\bibitem{thomas2006towards}
+Alexander Thomas, Vittorio Ferrar, Bastian Leibe, Tinne Tuytelaars, Bernt
+  Schiel, and Luc Van~Gool.
+\newblock Towards multi-view object class detection.
+\newblock In {\em Computer Vision and Pattern Recognition, 2006 IEEE Computer
+  Society Conference on}, volume~2, pages 1589--1596. IEEE, 2006.
+
+\bibitem{underwood1975visual}
+Stephen~A Underwood and Clarence~L Coates.
+\newblock Visual learning from multiple views.
+\newblock {\em Computers, IEEE Transactions on}, 100(6):651--661, 1975.
+
+\bibitem{arXiv:1412.4564}
+A.~Vedaldi and K.~Lenc.
+\newblock Matconvnet -- convolutional neural networks for matlab.
+\newblock {\em CoRR}, abs/1412.4564, 2014.
+
+\bibitem{xiang_wacv14}
+Yu~Xiang, Roozbeh Mottaghi, and Silvio Savarese.
+\newblock Beyond pascal: A benchmark for 3d object detection in the wild.
+\newblock In {\em IEEE Winter Conference on Applications of Computer Vision
+  (WACV)}, 2014.
+
+\bibitem{yan20073d}
+Pingkun Yan, Saad~M Khan, and Mubarak Shah.
+\newblock 3d model based object class detection in an arbitrary view.
+\newblock In {\em Computer Vision, 2007. ICCV 2007. IEEE 11th International
+  Conference on}, pages 1--6. IEEE, 2007.
+
+\end{thebibliography}

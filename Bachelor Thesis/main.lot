@@ -1,0 +1,18 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces This table shows the architecture of the first five layers of the CNN-F network with the modified padding.\relax }}{34}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Tables showing the influence of several model parameters on average precision (AP) and average viewpoint accuracy (VA).\relax }}{41}
+\contentsline {table}{\numberline {4.2}{\ignorespaces Tables showing the influence of training data parameters.\relax }}{43}
+\contentsline {table}{\numberline {4.3}{\ignorespaces Tables showing the influence of penalty term and truncation feature.\relax }}{43}
+\contentsline {table}{\numberline {4.4}{\ignorespaces Average Precision (AP) on cars of the VOC 2007 \cite {pascal-voc-2007} test set. Results for the model in this project are given in the first two columns and results of other models are provided for comparison.\relax }}{44}
+\contentsline {table}{\numberline {4.5}{\ignorespaces Average precision and average viewpoint accuracy (AP/VA) on cars of the VOC 2012 'val' set with annotations by \cite {xiang_wacv14}.\relax }}{45}
+\contentsline {table}{\numberline {4.6}{\ignorespaces Average precision and viewpoint estimation in MPPE on cars of the 3D Object classes dataset \cite {4408987}.\relax }}{45}
+\contentsline {table}{\numberline {4.7}{\ignorespaces Relative AP and VA with or without feature standardisation\relax }}{50}
+\contentsline {table}{\numberline {4.8}{\ignorespaces Relative AP and VA for different lower-bounds\relax }}{50}
+\contentsline {table}{\numberline {4.9}{\ignorespaces Comparing the detection performance of a CNN based model to a HOG based model using average precision on cars of the VOC 2007 'test' set.\relax }}{50}
+\contentsline {table}{\numberline {4.10}{\ignorespaces Comparing the performance of CNN based models to a HOG based model using average precision and average viewpoint accuracy (AP/VA) on cars of the VOC 2012 'val' set with annotations by \cite {xiang_wacv14}.\relax }}{51}
+\contentsline {table}{\numberline {4.11}{\ignorespaces Comparing the performance of CNN based models to a HOG based model using average precision and average viewpoint accuracy (AP/VA) on cars of the 3D object dataset \cite {4408987}.\relax }}{52}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
